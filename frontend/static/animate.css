@@ -1,0 +1,32 @@
+@keyframes fadein{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+.fadein{
+    animation-name: fadein;
+}
+
+@keyframes fadeout{
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+    }
+}
+
+
+
+.fadeout {
+    animation-name: fadeout;
+}
+
+.animated {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+}
